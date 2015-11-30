@@ -99,7 +99,9 @@ body {
 
 /* Featurettes
 ------------------------- */
-
+.row-featurette {
+    text-align: center;
+}
 
 /* Thin out the marketing headings */
 .featurette-heading {
