@@ -2,10 +2,9 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-
 body {
   padding-bottom: 40px;
-  color: #777;
+  color: #5a5a5a;
 }
 
 
@@ -70,7 +69,10 @@ body {
 }
 
 /* Declare heights because of positioning of img element */
-
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
@@ -101,7 +103,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  text-align: center;
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
